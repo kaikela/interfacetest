@@ -1,0 +1,32 @@
+[2017-01-13 17:43:30] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:43:30] [INFO] 清除用户课前诊断答题记录，请等待......
+[2017-01-13 17:43:30] [INFO] coursetest模块coursetest功能002接口测试开始
+[2017-01-13 17:43:30] [INFO] post请求数据开始
+[2017-01-13 17:43:30] [INFO] post请求数据完毕
+[2017-01-13 17:43:30] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] 请求参数:{"memberId":"3071734","courseId":"49","startTime":1483951871475,"endTime":1483951889652,"userAnswers":[{"questionId":"2754","answer":"A"},{"questionId":"2755","answer":"B"},{"questionId":"2756","answer":"C"}],sourceType:2}
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:31] [INFO] Response Body:{"data":{"courseTitle":"初中语文","timeBeatRate":"0.0","answerResultList":[{"questionId":2754,"isCorrect":false},{"questionId":2755,"isCorrect":false},{"questionId":2756,"isCorrect":false}],"sourceType":2,"userTime":"00:18","scoreBeatRate":"0.0","suggest":"","userScore":"0","batchId":5774,"courseId":49,"averageScore":"7.0","testAccuracy":"0.00%"},"success":true}
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] 请求参数:{"memberId":"3071734","courseId":"49","startTime":1483951871475,"endTime":1483951889652,"userAnswers":[{"questionId":"2754","answer":"A"},{"questionId":"2755","answer":"B"},{"questionId":"2756","answer":"C"}],sourceType:2}}
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [ERROR] 接口测试,接口发生异常或存在异常数据进行接口注入,预期结果为:true,而实际结果为:{"success":false,"errMsg":"系统出错啦，请稍后再试！","errorCode":"255"}
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] 请求参数:{"memberId":"3071734","courseId":"49","startTime":1483951871475,"endTime":1483951889652,"userAnswers":[{"questionId":"2754","answer":"A"},{"questionId":"2755","answer":"B"},{"questionId":"2756","answer":"C"}]}
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:31] [INFO] Response Body:{"data":{"courseTitle":"初中语文","timeBeatRate":"0.0","answerResultList":[{"questionId":2754,"isCorrect":false},{"questionId":2755,"isCorrect":false},{"questionId":2756,"isCorrect":false}],"sourceType":2,"userTime":"00:18","scoreBeatRate":"0.0","suggest":"","userScore":"0","batchId":5775,"courseId":49,"averageScore":"6.77","testAccuracy":"0.00%"},"success":true}
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] post请求数据开始
+[2017-01-13 17:43:31] [INFO] 请求参数:
+[2017-01-13 17:43:31] [INFO] post请求数据完毕
+[2017-01-13 17:43:31] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:31] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:31] [INFO] coursetest模块coursetest功能002接口测试完毕
+[2017-01-13 17:43:31] [INFO] ====================================接口测试完毕====================================

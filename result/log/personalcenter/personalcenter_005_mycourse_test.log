@@ -1,0 +1,34 @@
+[2017-01-13 17:40:29] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:29] [INFO] personalcenter模块personalcenter功能005接口测试开始
+[2017-01-13 17:40:29] [INFO] post请求数据开始
+[2017-01-13 17:40:29] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"0","percentSearch":"-1"}
+[2017-01-13 17:40:29] [INFO] post请求数据完毕
+[2017-01-13 17:40:29] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:29] [INFO] Response Body:{"data":{"NO2":[],"NO1":[{"lessionCount":6,"teacherName":"张禾强","smlImg1Url":"uploadFile/permanent/20160721/1469105034221.jpg","grade":"0000000001000000","name":"灵魂的热情--高一语文学习的动力和策略","id":201,"percent":15,"subjectId":1},{"lessionCount":31,"teacherName":"刘剑锋","grade":"0000000001000000","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3},{"lessionCount":41,"teacherName":"董妙妙","grade":"0000000001000000","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3},{"lessionCount":10,"teacherName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","grade":"0000000001000000","name":"情态动词","id":296,"percent":2,"subjectId":3},{"lessionCount":21,"teacherName":"房晶","grade":"0000000001000000","name":"金属及其化合物（同步课）","id":171,"percent":0,"subjectId":5}],"subjectId3":"3,","NO3":[{"lessionCount":86,"teacherName":"李军","grade":"0000000000010000","name":"高考英语一轮复习","id":62,"percent":0,"subjectId":3}],"subjectIdOther":"17,16,19,20,22,27,10,26,11,12,","subjectId1":"1,3,5,","subjectId2":"","Other":[{"lessionCount":10,"teacherName":"杨芮","smlImg1Url":"uploadFile/permanent/20160918/1474188200794.jpg","grade":"0000000010001100","name":"中学生考前心理秘籍","id":369,"percent":47,"subjectId":10},{"lessionCount":6,"teacherName":"董腾","smlImg1Url":"uploadFile/permanent/20160908/1473329320525.jpg","grade":"0000001110001100","name":"小说阅读","id":34,"percent":31,"subjectId":11},{"lessionCount":2,"teacherName":"西门傲雪","smlImg1Url":"uploadFile/permanent/20160721/1469085548186.jpg","grade":"0000000000000100","name":"中考复习语文一轮","id":480,"percent":0,"subjectId":11},{"lessionCount":4,"teacherName":"王宇","smlImg1Url":"uploadFile/permanent/20160721/1469085212568.jpg","grade":"0000000010000000","name":"【已更新完】解直角三角形","id":403,"percent":1,"subjectId":12},{"lessionCount":20,"teacherName":"陈亮","grade":"0000000000000100","name":"数学中考精讲","id":349,"percent":40,"subjectId":12},{"lessionCount":11,"teacherName":"刘杰","smlImg1Url":"uploadFile/permanent/20170112/1484232680282.jpg","grade":"0000000010000000","name":"认识牛顿-牛顿运动定律","id":481,"percent":6,"subjectId":16},{"lessionCount":9,"teacherName":"李珍霞","smlImg1Url":"uploadFile/permanent/20160721/1469085149038.jpg","grade":"0000000000001000","name":"下笔如有神","id":331,"percent":67,"subjectId":17},{"lessionCount":12,"teacherName":"陈志博","grade":"0000000000001000","name":"人分九等，词有十类--词性","id":348,"percent":0,"subjectId":19},{"lessionCount":8,"teacherName":"刘杰","smlImg1Url":"uploadFile/permanent/20160721/1469085582441.jpg","grade":"0000000000001000","name":"动与不动-运动的描述","id":478,"percent":0,"subjectId":20},{"lessionCount":3,"teacherName":"陈娟","smlImg1Url":"uploadFile/permanent/20161025/1477366281028.png","grade":"0000000000001000","name":"走近细胞","id":344,"percent":0,"subjectId":22},{"lessionCount":7,"teacherName":"刘挺","smlImg1Url":"uploadFile/permanent/20170111/1484139587549.jpg","grade":"0000000010000000","name":"平抛运动","id":35,"percent":44,"subjectId":26},{"lessionCount":8,"teacherName":"赵松涛","smlImg1Url":"uploadFile/permanent/20160909/1473400271442.jpg","grade":"0000001110001100","name":"高考英语写作","id":36,"percent":0,"subjectId":27}]},"success":true}
+[2017-01-13 17:40:29] [INFO] post请求数据开始
+[2017-01-13 17:40:29] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:29] [INFO] post请求数据完毕
+[2017-01-13 17:40:29] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:29] [INFO] Response Body:{"data":{"NO2":[],"NO1":[{"lessionCount":31,"teacherName":"刘剑锋","grade":"0000000001000000","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3},{"lessionCount":41,"teacherName":"董妙妙","grade":"0000000001000000","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3},{"lessionCount":10,"teacherName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","grade":"0000000001000000","name":"情态动词","id":296,"percent":2,"subjectId":3}],"subjectId3":"3,","NO3":[{"lessionCount":86,"teacherName":"李军","grade":"0000000000010000","name":"高考英语一轮复习","id":62,"percent":0,"subjectId":3}],"subjectIdOther":"","subjectId1":"3,","subjectId2":"","Other":[]},"success":true}
+[2017-01-13 17:40:29] [INFO] post请求数据开始
+[2017-01-13 17:40:29] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"0"}
+[2017-01-13 17:40:29] [INFO] post请求数据完毕
+[2017-01-13 17:40:29] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:29] [INFO] Response Body:{"data":{"NO2":[],"NO1":[{"lessionCount":31,"teacherName":"刘剑锋","grade":"0000000001000000","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3},{"lessionCount":41,"teacherName":"董妙妙","grade":"0000000001000000","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3},{"lessionCount":10,"teacherName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","grade":"0000000001000000","name":"情态动词","id":296,"percent":2,"subjectId":3}],"subjectId3":"3,","NO3":[{"lessionCount":86,"teacherName":"李军","grade":"0000000000010000","name":"高考英语一轮复习","id":62,"percent":0,"subjectId":3}],"subjectIdOther":"","subjectId1":"3,","subjectId2":"","Other":[]},"success":true}
+[2017-01-13 17:40:29] [INFO] post请求数据开始
+[2017-01-13 17:40:29] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"50"}
+[2017-01-13 17:40:29] [INFO] post请求数据完毕
+[2017-01-13 17:40:29] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:29] [INFO] Response Body:{"data":{"NO2":[],"NO1":[],"subjectId3":"","NO3":[],"subjectIdOther":"","subjectId1":"","subjectId2":"","Other":[]},"success":true}
+[2017-01-13 17:40:29] [INFO] post请求数据开始
+[2017-01-13 17:40:30] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"100"}
+[2017-01-13 17:40:30] [INFO] post请求数据完毕
+[2017-01-13 17:40:30] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:30] [INFO] Response Body:{"data":{"NO2":[],"NO1":[],"subjectId3":"","NO3":[],"subjectIdOther":"","subjectId1":"","subjectId2":"","Other":[]},"success":true}
+[2017-01-13 17:40:30] [INFO] post请求数据开始
+[2017-01-13 17:40:30] [INFO] 请求参数:{"memberId":"6018257","subjectIdSearch":"0","percentSearch":"-1"}
+[2017-01-13 17:40:30] [INFO] post请求数据完毕
+[2017-01-13 17:40:30] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:30] [INFO] Response Body:{"data":{"NO2":[],"NO1":[],"subjectId3":"","NO3":[],"subjectIdOther":"","subjectId1":"","subjectId2":"","Other":[]},"success":true}
+[2017-01-13 17:40:30] [INFO] personalcenter模块personalcenter功能005接口测试完毕
+[2017-01-13 17:40:30] [INFO] ====================================接口测试完毕====================================

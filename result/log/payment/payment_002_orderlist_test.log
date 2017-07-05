@@ -1,0 +1,34 @@
+[2017-01-13 17:41:36] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:41:37] [INFO] 清除用户购买课程相关数据开始，请等待......
+[2017-01-13 17:41:45] [INFO] 清除用户购买课程相关数据完成
+[2017-01-13 17:41:45] [INFO] 更新用户KB数据开始，请等待......
+[2017-01-13 17:41:50] [INFO] 更新用户KB数据完成
+[2017-01-13 17:41:50] [INFO] payment模块payment功能002接口测试开始
+[2017-01-13 17:41:50] [INFO] post请求数据开始
+[2017-01-13 17:41:50] [INFO] 请求参数:{"memberId":"6018257","orderStatus":"2","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:41:50] [INFO] post请求数据完毕
+[2017-01-13 17:41:50] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:50] [INFO] Response Body:{"data":{"total":0,"orderList":[]},"success":true}
+[2017-01-13 17:41:50] [INFO] post请求数据开始
+[2017-01-13 17:41:50] [INFO] post请求数据完毕
+[2017-01-13 17:41:50] [INFO] post请求数据开始
+[2017-01-13 17:41:50] [INFO] 请求参数:{"memberId":"6018257","orderStatus":"2","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:41:50] [INFO] post请求数据完毕
+[2017-01-13 17:41:50] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:50] [INFO] Response Body:{"data":{"total":1,"orderList":[{"isContainOffCommodity":false,"commodityImage":"uploadFile/permanent/20170112/1484219581941.jpg","orderNo":"2017011300012621012622012621","teacherName":"董腾","playType":"1","totalPrice":5,"orderStatus":1,"commodityCount":1,"commodityName":"初中语文"}]},"success":true}
+[2017-01-13 17:41:50] [INFO] post请求数据开始
+[2017-01-13 17:41:50] [INFO] 请求参数:{"memberId":"6018257","orderStatus":"1","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:41:50] [INFO] post请求数据完毕
+[2017-01-13 17:41:50] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:50] [INFO] Response Body:{"data":{"total":0,"orderList":[]},"success":true}
+[2017-01-13 17:41:50] [INFO] post请求数据开始
+[2017-01-13 17:41:52] [INFO] post请求数据完毕
+[2017-01-13 17:41:52] [INFO] post请求数据开始
+[2017-01-13 17:41:55] [INFO] post请求数据完毕
+[2017-01-13 17:41:55] [INFO] post请求数据开始
+[2017-01-13 17:41:56] [INFO] 请求参数:{"memberId":"6018257","orderStatus":"1","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:41:56] [INFO] post请求数据完毕
+[2017-01-13 17:41:56] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:56] [INFO] Response Body:{"data":{"total":1,"orderList":[{"isContainOffCommodity":false,"commodityImage":"uploadFile/permanent/20170112/1484219581941.jpg","orderNo":"2017011300012621012622012621","teacherName":"董腾","playType":"1","totalPrice":5,"orderStatus":3,"commodityCount":1,"commodityName":"初中语文"}]},"success":true}
+[2017-01-13 17:41:56] [INFO] payment模块payment功能002接口测试完毕
+[2017-01-13 17:41:56] [INFO] ====================================接口测试完毕====================================

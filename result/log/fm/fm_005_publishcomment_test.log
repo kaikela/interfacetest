@@ -1,0 +1,36 @@
+[2017-01-13 17:43:15] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:43:15] [INFO] 清除心理FM评论/回复数据，请等待......
+[2017-01-13 17:43:15] [INFO] 清除心理FM评论/回复数据完成
+[2017-01-13 17:43:15] [INFO] fm模块fm功能005接口测试开始
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"","content":"","memberId":"","parentId":""}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"35","content":"test","memberId":"","parentId":"0"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"35","content":"testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestt","memberId":"6018257","parentId":"0"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":false,"errMsg":"回复内容过长，请删减后再重发！","errorCode":"13502"}
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"35","content":"test","memberId":"6018257","parentId":"0"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":true}
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"35","content":"test2","memberId":"6018257","parentId":"4842"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":true}
+[2017-01-13 17:43:15] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"fmId":"35","content":"test3","memberId":"99999","parentId":"0"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"success":false,"errMsg":"用户信息获取失败！","errorCode":"13503"}
+[2017-01-13 17:43:15] [INFO] fm模块fm功能005接口测试完毕
+[2017-01-13 17:43:15] [INFO] ====================================接口测试完毕====================================

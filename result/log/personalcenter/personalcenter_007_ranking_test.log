@@ -1,0 +1,19 @@
+[2017-01-13 17:40:30] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:30] [INFO] personalcenter模块personalcenter功能007接口测试开始
+[2017-01-13 17:40:30] [INFO] post请求数据开始
+[2017-01-13 17:40:30] [INFO] 请求参数:{"memberId":"3023408"}
+[2017-01-13 17:40:30] [INFO] post请求数据完毕
+[2017-01-13 17:40:30] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:30] [INFO] Response Body:{"data":{"schoolRank":1,"oneselfRank":{"courses":17,"learnTime":1.2,"avatarUrl":"uploadFile/temp/20160919/1474249896481memberPic.png","rank":8589,"nikeName":"妮妮妮妮妮妮","memberId":3023408},"provinceRank":348,"globalRankList":[{"courses":1271,"learnTime":171.6,"rank":1,"nikeName":"飞哥","memberId":12000},{"courses":61,"learnTime":145.9,"rank":2,"nikeName":"奋斗的小青年","memberId":24685},{"courses":338,"learnTime":130.1,"rank":3,"nikeName":"萱","memberId":3018630},{"courses":390,"learnTime":122.7,"rank":4,"nikeName":"西瓜太郎","memberId":3011782},{"courses":367,"learnTime":119.9,"rank":5,"nikeName":"璇仔","memberId":3017915},{"courses":389,"learnTime":110.9,"rank":6,"nikeName":"你好吗~","memberId":27079},{"courses":405,"learnTime":109.3,"rank":7,"nikeName":"于连源","memberId":15028},{"courses":279,"learnTime":101.5,"rank":8,"nikeName":"彷徨中的点缀","memberId":3024062},{"courses":319,"learnTime":97.8,"rank":9,"nikeName":"big  world","memberId":3014886},{"courses":2,"learnTime":92.5,"rank":10,"nikeName":"李帅","memberId":25731}]},"success":true}
+[2017-01-13 17:40:30] [INFO] post请求数据开始
+[2017-01-13 17:40:37] [INFO] 请求参数:{"memberId":"6018257"}
+[2017-01-13 17:40:37] [INFO] post请求数据完毕
+[2017-01-13 17:40:37] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:37] [INFO] Response Body:{"data":{"schoolRank":579,"oneselfRank":{"courses":0,"learnTime":0,"rank":0,"nikeName":"13900000001","memberId":6018257},"provinceRank":1772,"globalRankList":[{"courses":1271,"learnTime":171.6,"rank":1,"nikeName":"飞哥","memberId":12000},{"courses":61,"learnTime":145.9,"rank":2,"nikeName":"奋斗的小青年","memberId":24685},{"courses":338,"learnTime":130.1,"rank":3,"nikeName":"萱","memberId":3018630},{"courses":390,"learnTime":122.7,"rank":4,"nikeName":"西瓜太郎","memberId":3011782},{"courses":367,"learnTime":119.9,"rank":5,"nikeName":"璇仔","memberId":3017915},{"courses":389,"learnTime":110.9,"rank":6,"nikeName":"你好吗~","memberId":27079},{"courses":405,"learnTime":109.3,"rank":7,"nikeName":"于连源","memberId":15028},{"courses":279,"learnTime":101.5,"rank":8,"nikeName":"彷徨中的点缀","memberId":3024062},{"courses":319,"learnTime":97.8,"rank":9,"nikeName":"big  world","memberId":3014886},{"courses":2,"learnTime":92.5,"rank":10,"nikeName":"李帅","memberId":25731}]},"success":true}
+[2017-01-13 17:40:37] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] 请求参数:{"memberId":"1234"}
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:38] [INFO] Response Body:{"success":false,"errMsg":"系统出错啦，请稍后再试！","errorCode":"255"}
+[2017-01-13 17:40:38] [INFO] personalcenter模块personalcenter功能007接口测试完毕
+[2017-01-13 17:40:38] [INFO] ====================================接口测试完毕====================================

@@ -1,0 +1,19 @@
+[2017-01-13 17:40:55] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:55] [INFO] personalcenter模块personalcenter功能019接口测试开始
+[2017-01-13 17:40:56] [INFO] post请求数据开始
+[2017-01-13 17:41:01] [INFO] 请求参数:{"memberId":"3071734"}
+[2017-01-13 17:41:01] [INFO] post请求数据完毕
+[2017-01-13 17:41:01] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:01] [INFO] Response Body:{"data":{"memberPlayRecord":[{"resourceId":"b1dc9d21-4078-4e82-bd6a-3973494664c1-826800","lessionOrder":"2","viewingTime":"2017-01-13 14:09:21","description":"额头而twee驱蚊器为","lessonId":88,"commodityId":530,"percent":"98","lessonName":"呼吸类型的判断和计算","duration":14,"total":40,"isPractice":2,"videoUrl":"kkxy/lbkc/huyaping/6.17hyp02.f4v","playType":"1","courseBuyStatus":3,"playTime":825,"courseId":49,"smlImgUrl":"uploadFile/permanent/20170112/1484219581941.jpg","commodityName":"初中语文"},{"resourceId":"3a2889f0-504f-4b0a-afe5-e8bec4a96a47-114600","lessionOrder":"1","viewingTime":"2017-01-03 20:18:32","description":"详解\u201c小说塑造人物的方法、概括人物的性格特征、对文中人物进行客观公正的评析\u201d四类人物题的解题思路","lessonId":43,"commodityId":34,"percent":"19","lessonName":"人物题","duration":28,"total":6,"isPractice":3,"videoUrl":"kkxy/dongteng/3.26dt01.f4v","playType":"1","courseBuyStatus":3,"playTime":320,"courseId":34,"smlImgUrl":"uploadFile/permanent/20160908/1473329320525.jpg","commodityName":"小说阅读"},{"resourceId":"a441140c-9b4d-40e4-a1c7-b80f3556f52e-1601700","lessionOrder":"1","viewingTime":"2016-12-29 15:40:51","description":"平抛、类平抛、斜抛运动基本规律、条件、和相关做题技巧。","lessonId":49,"commodityId":35,"percent":"21","lessonName":"平抛、类平抛、斜抛 ","duration":26,"total":7,"isPractice":3,"videoUrl":"kkxy/liuting/3.27lt01.f4v","playType":"1","courseBuyStatus":3,"playTime":325,"courseId":35,"smlImgUrl":"uploadFile/permanent/20170111/1484139587549.jpg","commodityName":"平抛运动"},{"resourceId":"aea38272-f911-4899-95c0-4003df6ba528-1670300","lessionOrder":"1","viewingTime":"2016-12-22 16:38:48","description":"","lessonId":1637,"commodityId":121,"percent":"0","lessonName":"解不等式和二次函数根的分布I","duration":26,"total":4,"isPractice":1,"videoUrl":"-","playType":"1","courseBuyStatus":3,"playTime":0,"courseId":134,"smlImgUrl":"uploadFile/permanent/20160721/1469104938423.jpg","commodityName":"解不等式和二次函数根的分布"},{"resourceId":"84d0cff3-c6c6-4461-926d-490013a3ccac-813200","lessionOrder":"1","viewingTime":"2016-12-05 09:51:25","description":"","lessonId":5040,"commodityId":344,"percent":"0","lessonName":"细胞的多样性和统一性","duration":13,"total":3,"isPractice":3,"videoUrl":"/kkxy/lbkc2016/chenjuan/2016.03.02cj04.f4v","playType":"1","courseBuyStatus":3,"playTime":0,"courseId":352,"smlImgUrl":"uploadFile/permanent/20161025/1477366281028.png","commodityName":"走近细胞"}]},"success":true}
+[2017-01-13 17:41:01] [INFO] post请求数据开始
+[2017-01-13 17:41:01] [INFO] 请求参数:{"memberId":""}
+[2017-01-13 17:41:01] [INFO] post请求数据完毕
+[2017-01-13 17:41:01] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:01] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:41:01] [INFO] post请求数据开始
+[2017-01-13 17:41:01] [INFO] 请求参数:{"memberId":"6018257"}
+[2017-01-13 17:41:01] [INFO] post请求数据完毕
+[2017-01-13 17:41:01] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:01] [INFO] Response Body:{"data":{"memberPlayRecord":[]},"success":true}
+[2017-01-13 17:41:01] [INFO] personalcenter模块personalcenter功能019接口测试完毕
+[2017-01-13 17:41:01] [INFO] ====================================接口测试完毕====================================

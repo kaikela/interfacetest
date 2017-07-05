@@ -1,0 +1,29 @@
+[2017-01-13 17:40:27] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:27] [INFO] personalcenter模块personalcenter功能004接口测试开始
+[2017-01-13 17:40:28] [INFO] post请求数据开始
+[2017-01-13 17:40:28] [INFO] 请求参数:{"memberId":"3019036","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:40:28] [INFO] post请求数据完毕
+[2017-01-13 17:40:28] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:28] [INFO] Response Body:{"data":{"cardDetailVO":[{"availableYear":"2016-08-31 00:00:00","cardPassword":"2060964315685372","cardTypeName":"三元及第","cardType":2,"cityId":"292600","cardNo":"201520018018","provinceId":"290000","bindFlag":1,"selectedCount":2,"cityName":"金华市","countyId":"292658","grade":"9","schoolId":"100013","activeDate":"2016-07-28 11:07:26","name":"初中英语,高中语文,初中科学,高中化学,初中数学,初中物理,初中化学,初升高历史,初中语文,初升高地理,初升高生物,初升高数学,心灵成长,初升高化学,高中英语,生涯规划,初升高英语,初升高语文,状元说,高中物理","provinceName":"浙江省","schoolName":"佛堂镇初级中学","countyName":"义乌市","selectableCount":3,"status":6},{"availableYear":"2016-08-31 00:00:00","cardPassword":"4072111615538459","cardTypeName":"桃李满门","cardType":4,"cityId":"292600","cardNo":"201540007233","provinceId":"290000","bindFlag":1,"selectedCount":1,"cityName":"金华市","countyId":"292658","grade":"10","schoolId":"8965","activeDate":"2016-07-26 09:31:05","name":"高中物理","provinceName":"浙江省","schoolName":"义乌市大成中学","countyName":"义乌市","selectableCount":1,"status":6},{"availableYear":"2016-08-31 00:00:00","cardPassword":"4014891515577719","cardTypeName":"桃李满门","cardType":4,"cityId":"292600","cardNo":"201540004209","provinceId":"290000","bindFlag":1,"selectedCount":1,"cityName":"金华市","countyId":"292658","grade":"10","schoolId":"8965","activeDate":"2015-12-25 17:18:53","name":"高中数学,初中数学","provinceName":"浙江省","schoolName":"义乌市大成中学","countyName":"义乌市","selectableCount":1,"status":6}]},"success":true}
+[2017-01-13 17:40:28] [INFO] post请求数据开始
+[2017-01-13 17:40:28] [INFO] 请求参数:{"memberId":"3019036","pageIndex":"1","pageSize":"2"}
+[2017-01-13 17:40:28] [INFO] post请求数据完毕
+[2017-01-13 17:40:28] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:28] [INFO] Response Body:{"data":{"cardDetailVO":[{"availableYear":"2016-08-31 00:00:00","cardPassword":"2060964315685372","cardTypeName":"三元及第","cardType":2,"cityId":"292600","cardNo":"201520018018","provinceId":"290000","bindFlag":1,"selectedCount":2,"cityName":"金华市","countyId":"292658","grade":"9","schoolId":"100013","activeDate":"2016-07-28 11:07:26","name":"初中英语,高中语文,初中科学,高中化学,初中数学,初中物理,初中化学,初升高历史,初中语文,初升高地理,初升高生物,初升高数学,心灵成长,初升高化学,高中英语,生涯规划,初升高英语,初升高语文,状元说,高中物理","provinceName":"浙江省","schoolName":"佛堂镇初级中学","countyName":"义乌市","selectableCount":3,"status":6},{"availableYear":"2016-08-31 00:00:00","cardPassword":"4072111615538459","cardTypeName":"桃李满门","cardType":4,"cityId":"292600","cardNo":"201540007233","provinceId":"290000","bindFlag":1,"selectedCount":1,"cityName":"金华市","countyId":"292658","grade":"10","schoolId":"8965","activeDate":"2016-07-26 09:31:05","name":"高中物理","provinceName":"浙江省","schoolName":"义乌市大成中学","countyName":"义乌市","selectableCount":1,"status":6}]},"success":true}
+[2017-01-13 17:40:28] [INFO] post请求数据开始
+[2017-01-13 17:40:28] [INFO] 请求参数:{"memberId":"3019036","pageIndex":"1","pageSize":"1"}
+[2017-01-13 17:40:28] [INFO] post请求数据完毕
+[2017-01-13 17:40:28] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:28] [INFO] Response Body:{"data":{"cardDetailVO":[{"availableYear":"2016-08-31 00:00:00","cardPassword":"2060964315685372","cardTypeName":"三元及第","cardType":2,"cityId":"292600","cardNo":"201520018018","provinceId":"290000","bindFlag":1,"selectedCount":2,"cityName":"金华市","countyId":"292658","grade":"9","schoolId":"100013","activeDate":"2016-07-28 11:07:26","name":"初中英语,高中语文,初中科学,高中化学,初中数学,初中物理,初中化学,初升高历史,初中语文,初升高地理,初升高生物,初升高数学,心灵成长,初升高化学,高中英语,生涯规划,初升高英语,初升高语文,状元说,高中物理","provinceName":"浙江省","schoolName":"佛堂镇初级中学","countyName":"义乌市","selectableCount":3,"status":6}]},"success":true}
+[2017-01-13 17:40:28] [INFO] post请求数据开始
+[2017-01-13 17:40:28] [INFO] 请求参数:{"memberId":"3019036","pageIndex":"2","pageSize":"10"}
+[2017-01-13 17:40:28] [INFO] post请求数据完毕
+[2017-01-13 17:40:28] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:28] [INFO] Response Body:{"data":{"cardDetailVO":[]},"success":true}
+[2017-01-13 17:40:28] [INFO] post请求数据开始
+[2017-01-13 17:40:28] [INFO] 请求参数:{"memberId":"6018257","pageIndex":"1","pageSize":"10"}
+[2017-01-13 17:40:28] [INFO] post请求数据完毕
+[2017-01-13 17:40:28] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:28] [INFO] Response Body:{"data":{"cardDetailVO":[]},"success":true}
+[2017-01-13 17:40:29] [INFO] personalcenter模块personalcenter功能004接口测试完毕
+[2017-01-13 17:40:29] [INFO] ====================================接口测试完毕====================================

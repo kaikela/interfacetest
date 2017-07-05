@@ -1,0 +1,9 @@
+[2017-01-13 17:40:44] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:44] [INFO] personalcenter模块personalcenter功能014接口测试开始
+[2017-01-13 17:40:44] [INFO] post请求数据开始
+[2017-01-13 17:40:44] [INFO] 请求参数:{"memberId":"6018257"}
+[2017-01-13 17:40:44] [INFO] post请求数据完毕
+[2017-01-13 17:40:44] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:44] [INFO] Response Body:{"data":{"rewardRuleList":[{"day":10,"coin":2},{"day":20,"coin":5},{"day":30,"coin":8}],"signDays":0,"isSignToday":false,"currentRewardCoin":0,"nextRewardCoin":2,"surplusPrizeDays":10},"success":true}
+[2017-01-13 17:40:44] [INFO] personalcenter模块personalcenter功能014接口测试完毕
+[2017-01-13 17:40:44] [INFO] ====================================接口测试完毕====================================

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="driverConfgFilePath" value="config/driver.properties"/>
+  <test name="mycourse03">
+    <classes>
+      <class name="com.mistong.interfacetest.testcases.mycourse.mycourse_003_getCurrentList_test"/>
+    </classes>
+  </test> <!-- mycourse03 -->
+  <test name="mycourse03(failed)">
+    <classes>
+      <class name="com.mistong.interfacetest.testcases.mycourse.mycourse_003_getCurrentList_test">
+        <methods>
+          <include name="endTest"/>
+          <include name="beforeTest"/>
+          <include name="AfterTest"/>
+          <include name="testCase" invocation-numbers="2 3"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.mistong.interfacetest.testcases.mycourse.mycourse_003_getCurrentList_test -->
+    </classes>
+  </test> <!-- mycourse03(failed) -->
+</suite> <!-- Failed suite [Suite] -->

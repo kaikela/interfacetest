@@ -1,0 +1,44 @@
+[2017-01-13 17:40:47] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:47] [INFO] personalcenter模块personalcenter功能018接口测试开始
+[2017-01-13 17:40:49] [INFO] post请求数据开始
+[2017-01-13 17:40:49] [INFO] 请求参数:{"memberId":"","subjectIdSearch":"0","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:49] [INFO] post请求数据完毕
+[2017-01-13 17:40:49] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:49] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:40:49] [INFO] post请求数据开始
+[2017-01-13 17:40:50] [INFO] 请求参数:{"memberId":"999999","subjectIdSearch":"3","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:50] [INFO] post请求数据完毕
+[2017-01-13 17:40:50] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:50] [INFO] Response Body:{"data":{"commoditylist":[]},"success":true}
+[2017-01-13 17:40:50] [INFO] post请求数据开始
+[2017-01-13 17:40:51] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"0","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:51] [INFO] post请求数据完毕
+[2017-01-13 17:40:51] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:51] [INFO] Response Body:{"data":{"commoditylist":[{"lessionCount":6,"teachName":"张禾强","smlImg1Url":"uploadFile/permanent/20160721/1469105034221.jpg","name":"灵魂的热情--高一语文学习的动力和策略","id":201,"percent":15,"subjectId":1,"subjectName":"高中语文"},{"lessionCount":41,"teachName":"董妙妙","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":10,"teachName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","name":"情态动词","id":296,"percent":2,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":31,"teachName":"刘剑锋","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":21,"teachName":"房晶","name":"金属及其化合物（同步课）","id":171,"percent":0,"subjectId":5,"subjectName":"高中化学"}]},"success":true}
+[2017-01-13 17:40:51] [INFO] post请求数据开始
+[2017-01-13 17:40:51] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:51] [INFO] post请求数据完毕
+[2017-01-13 17:40:51] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:51] [INFO] Response Body:{"data":{"commoditylist":[{"lessionCount":41,"teachName":"董妙妙","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":10,"teachName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","name":"情态动词","id":296,"percent":2,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":31,"teachName":"刘剑锋","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3,"subjectName":"高中英语"}]},"success":true}
+[2017-01-13 17:40:51] [INFO] post请求数据开始
+[2017-01-13 17:40:52] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"0"}
+[2017-01-13 17:40:52] [INFO] post请求数据完毕
+[2017-01-13 17:40:52] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:52] [INFO] Response Body:{"data":{"commoditylist":[{"lessionCount":31,"teachName":"刘剑锋","name":"外研版英语必修4同步课","id":297,"percent":0,"subjectId":3,"subjectName":"高中英语"}]},"success":true}
+[2017-01-13 17:40:52] [INFO] post请求数据开始
+[2017-01-13 17:40:53] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"50"}
+[2017-01-13 17:40:53] [INFO] post请求数据完毕
+[2017-01-13 17:40:53] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:53] [INFO] Response Body:{"data":{"commoditylist":[{"lessionCount":41,"teachName":"董妙妙","name":"人教版英语必修3提高课","id":295,"percent":30,"subjectId":3,"subjectName":"高中英语"},{"lessionCount":10,"teachName":"任峰","smlImg1Url":"uploadFile/permanent/20160721/1469085859390.jpg","name":"情态动词","id":296,"percent":2,"subjectId":3,"subjectName":"高中英语"}]},"success":true}
+[2017-01-13 17:40:53] [INFO] post请求数据开始
+[2017-01-13 17:40:54] [INFO] 请求参数:{"memberId":"3019036","subjectIdSearch":"3","grade":"10","percentSearch":"100"}
+[2017-01-13 17:40:54] [INFO] post请求数据完毕
+[2017-01-13 17:40:54] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:54] [INFO] Response Body:{"data":{"commoditylist":[]},"success":true}
+[2017-01-13 17:40:54] [INFO] post请求数据开始
+[2017-01-13 17:40:55] [INFO] 请求参数:{"memberId":"6018257","subjectIdSearch":"0","grade":"10","percentSearch":"-1"}
+[2017-01-13 17:40:55] [INFO] post请求数据完毕
+[2017-01-13 17:40:55] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:55] [INFO] Response Body:{"data":{"commoditylist":[]},"success":true}
+[2017-01-13 17:40:55] [INFO] personalcenter模块personalcenter功能018接口测试完毕
+[2017-01-13 17:40:55] [INFO] ====================================接口测试完毕====================================

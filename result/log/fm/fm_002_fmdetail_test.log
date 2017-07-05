@@ -1,0 +1,48 @@
+[2017-01-13 17:43:11] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:43:11] [INFO] fm模块fm功能002接口测试开始
+[2017-01-13 17:43:11] [INFO] post请求数据开始
+[2017-01-13 17:43:11] [INFO] 请求参数:{"id":"","memberId":"6018257"}
+[2017-01-13 17:43:11] [INFO] post请求数据完毕
+[2017-01-13 17:43:11] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:11] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:11] [INFO] post请求数据开始
+[2017-01-13 17:43:11] [INFO] 请求参数:{"id":"","memberId":""}
+[2017-01-13 17:43:11] [INFO] post请求数据完毕
+[2017-01-13 17:43:11] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:11] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:11] [INFO] post请求数据开始
+[2017-01-13 17:43:11] [INFO] 请求参数:{"id":"1","memberId":""}
+[2017-01-13 17:43:11] [INFO] post请求数据完毕
+[2017-01-13 17:43:11] [ERROR] 接口测试,接口发生异常或存在异常数据进行接口注入,预期结果为:参数不可以为空,而实际结果为:{"success":false,"errMsg":"系统正忙，节目说明暂时无法查看！","errorCode":"13202"}
+[2017-01-13 17:43:11] [INFO] post请求数据开始
+[2017-01-13 17:43:11] [INFO] 请求参数:{"id":"18","memberId":"6018257"}
+[2017-01-13 17:43:11] [INFO] post请求数据完毕
+[2017-01-13 17:43:11] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:11] [INFO] Response Body:{"data":{"resourceId":"4535d627-cbbd-4d11-bb2f-3e98bdd974c3-984100","appDetailImg":"course/2016/7/21/1469094098032/1469094098033.jpg","resourceFlag":1,"haveComment":false,"title":"第5期：做自己，让学习更快乐","hit":11257,"isclickLike":false,"anchor":"米笛哥哥","playTime":12,"id":18,"up":935,"descript":"hello，各位亲爱的小伙伴，我是新晋主播米笛哥哥，听很多人说学习很不快乐\u2026\u2026恩，米笛哥哥读书的时候也这样想呢，可是现在，我有一些不一样的想法想和你们分享~~","mp3Url":"mp4:ewt360/kkxy/kklfm/kklfm05.m4a","reply":305},"success":true}
+[2017-01-13 17:43:11] [INFO] post请求数据开始
+[2017-01-13 17:43:12] [INFO] 请求参数:{"id":"20","memberId":"6018257"}
+[2017-01-13 17:43:12] [INFO] post请求数据完毕
+[2017-01-13 17:43:12] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:12] [INFO] Response Body:{"data":{"resourceId":"cb661c53-5212-4daa-95dc-e28d651c9b39-939700","appDetailImg":"course/2016/9/25/1474787024985/1474787024986.jpg","resourceFlag":1,"haveComment":false,"title":"第7期：别对自己说不可能","hit":11500,"isclickLike":false,"anchor":"小静姐","playTime":13,"id":20,"up":926,"descript":"嗨！小静姐又和你见面了，这一周过的好吗？中考就要来了，不知道你是否在咬紧牙关坚持呢\u2026\u2026无论现状如何，小静姐都希望你 别对自己说不可能！","mp3Url":"mp4:ewt360/kkxy/kklfm/kklfm07.m4a","reply":355},"success":true}
+[2017-01-13 17:43:12] [INFO] post请求数据开始
+[2017-01-13 17:43:12] [INFO] 请求参数:{"id":"21","memberId":"6018257"}
+[2017-01-13 17:43:12] [INFO] post请求数据完毕
+[2017-01-13 17:43:12] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:12] [INFO] Response Body:{"data":{"resourceId":"81177e4e-f642-4649-b256-31f3bca90e0c-772500","appDetailImg":"course/2016/9/25/1474787059282/1474787059282.jpg","resourceFlag":1,"haveComment":false,"title":"第8期：我们为什么要读大学","hit":11839,"isclickLike":false,"anchor":"米笛哥哥","playTime":20,"id":21,"up":1005,"descript":"你知道自己为什么要读书上学吗？为什么要这么辛苦的准备中考、准备高考吗？刘同最近在绵阳中学的演讲，或许可以回答你这些问题。让我们一起来听米笛哥哥给我们带来的分享~","mp3Url":"mp4:ewt360/kkxy/kklfm/kklfm08.m4a","reply":273},"success":true}
+[2017-01-13 17:43:12] [INFO] post请求数据开始
+[2017-01-13 17:43:12] [INFO] 请求参数:{"id":"19","memberId":"6018257"}
+[2017-01-13 17:43:12] [INFO] post请求数据完毕
+[2017-01-13 17:43:12] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:12] [INFO] Response Body:{"data":{"resourceId":"0e5fa98b-6194-47a0-a0d5-9b54227adb78-760000","appDetailImg":"course/2016/9/25/1474786983073/1474786983074.jpg","resourceFlag":1,"haveComment":false,"title":"第6期：你照亮了我整个夜空","hit":9726,"isclickLike":false,"anchor":"小静姐","playTime":15,"id":19,"up":796,"descript":"你有自己的偶像吗？你追星吗？你怎么看待追星这件事情呢？我是小静姐，很开心在开课啦心理FM里遇见你，希望可以用声音守护你们成长~~","mp3Url":"mp4:ewt360/kkxy/kklfm/kklfm06.m4a","reply":548},"success":true}
+[2017-01-13 17:43:12] [INFO] post请求数据开始
+[2017-01-13 17:43:12] [INFO] 请求参数:{"id":"13","memberId":"6018257"}
+[2017-01-13 17:43:12] [INFO] post请求数据完毕
+[2017-01-13 17:43:12] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:12] [INFO] Response Body:{"data":{"resourceId":"6cd0a03f-c5fd-48e7-88ae-a9f73dab2e40-667500","appDetailImg":"course/2016/9/25/1474786861165/1474786861166.jpg","resourceFlag":1,"haveComment":false,"title":"第1期：不是\u201c焦点\u201d却更自信","hit":13675,"isclickLike":false,"anchor":"小然姐","playTime":11,"id":13,"up":1383,"descript":"嗨，Boys and girls！这里是与你初见的开课啦心理FM，我们致力于用声音守护你成长。\r\n听说第一期节目的话题每一个人都碰到过，是什么呢？！听，她来了~","mp3Url":"mp4:ewt360/kkxy/kklfm/kklfm01.m4a","reply":427},"success":true}
+[2017-01-13 17:43:12] [INFO] post请求数据开始
+[2017-01-13 17:43:12] [INFO] 请求参数:{"id":"99999","memberId":"6018257"}
+[2017-01-13 17:43:12] [INFO] post请求数据完毕
+[2017-01-13 17:43:12] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:12] [INFO] Response Body:{"success":false,"errMsg":"系统正忙，节目说明暂时无法查看！","errorCode":"13202"}
+[2017-01-13 17:43:12] [INFO] fm模块fm功能002接口测试完毕
+[2017-01-13 17:43:12] [INFO] ====================================接口测试完毕====================================

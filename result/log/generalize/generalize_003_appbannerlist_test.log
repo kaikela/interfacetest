@@ -1,0 +1,24 @@
+[2017-01-13 17:41:07] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:41:07] [INFO] generalize模块generalize功能003接口测试开始
+[2017-01-13 17:41:07] [INFO] post请求数据开始
+[2017-01-13 17:41:07] [INFO] 请求参数:{"os":"","version":""}
+[2017-01-13 17:41:07] [INFO] post请求数据完毕
+[2017-01-13 17:41:07] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:07] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:41:07] [INFO] post请求数据开始
+[2017-01-13 17:41:07] [INFO] 请求参数:{"os":"0","version":"2.0.0"}
+[2017-01-13 17:41:07] [INFO] post请求数据完毕
+[2017-01-13 17:41:07] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:07] [INFO] Response Body:{"data":{"bannerList":[{"businessScene":3,"imagePath":"uploadFile/permanent/20160927/1474957831288.jpg","businessId":2490,"id":191,"url":"http://community.kaike.la/community/campusCircle/circle-go.do?id=7"},{"businessScene":4,"imagePath":"uploadFile/permanent/20160822/1471834017198.jpg","businessId":47,"id":204,"url":"mp4:ewt360/vm/2016/0819/a01aaf00f399f8cd2a67e8993c3aa3b8.m4a"},{"businessScene":1,"imagePath":"uploadFile/permanent/20160822/1471832129007.jpg","id":203,"url":"http://m.kaike.la/"},{"businessScene":5,"imagePath":"uploadFile/permanent/20160927/1474957680261.jpg","businessId":7,"id":195,"url":""},{"businessScene":4,"imagePath":"uploadFile/permanent/20170113/1484299126355.jpg","businessId":49,"id":243,"url":"http://fm.kaike.la/index.do?fmId=49"},{"businessScene":2,"imagePath":"uploadFile/permanent/20161027/1477571121703.jpg","businessId":36,"id":228,"url":""}]},"success":true}
+[2017-01-13 17:41:07] [INFO] post请求数据开始
+[2017-01-13 17:41:07] [INFO] 请求参数:{"os":"1","version":"2.0.0"}
+[2017-01-13 17:41:07] [INFO] post请求数据完毕
+[2017-01-13 17:41:07] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:07] [INFO] Response Body:{"data":{"bannerList":[{"businessScene":3,"imagePath":"uploadFile/permanent/20160927/1474957831288.jpg","businessId":2490,"id":191,"url":"http://community.kaike.la/community/campusCircle/circle-go.do?id=7"},{"businessScene":4,"imagePath":"uploadFile/permanent/20160822/1471834017198.jpg","businessId":47,"id":204,"url":"mp4:ewt360/vm/2016/0819/a01aaf00f399f8cd2a67e8993c3aa3b8.m4a"},{"businessScene":1,"imagePath":"uploadFile/permanent/20160822/1471832129007.jpg","id":203,"url":"http://m.kaike.la/"},{"businessScene":5,"imagePath":"uploadFile/permanent/20160927/1474957680261.jpg","businessId":7,"id":195,"url":""},{"businessScene":4,"imagePath":"uploadFile/permanent/20170113/1484299126355.jpg","businessId":49,"id":243,"url":"http://fm.kaike.la/index.do?fmId=49"},{"businessScene":2,"imagePath":"uploadFile/permanent/20161027/1477571121703.jpg","businessId":36,"id":228,"url":""}]},"success":true}
+[2017-01-13 17:41:07] [INFO] post请求数据开始
+[2017-01-13 17:41:07] [INFO] 请求参数:{"os":"2","version":"2.0.0"}
+[2017-01-13 17:41:07] [INFO] post请求数据完毕
+[2017-01-13 17:41:07] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:07] [INFO] Response Body:{"data":{"bannerList":[{"businessScene":3,"imagePath":"uploadFile/permanent/20160927/1474957831288.jpg","businessId":2490,"id":191,"url":"http://community.kaike.la/community/campusCircle/circle-go.do?id=7"},{"businessScene":4,"imagePath":"uploadFile/permanent/20170113/1484299126355.jpg","businessId":49,"id":243,"url":"http://fm.kaike.la/index.do?fmId=49"},{"businessScene":2,"imagePath":"uploadFile/permanent/20161027/1477571121703.jpg","businessId":36,"id":228,"url":""}]},"success":true}
+[2017-01-13 17:41:07] [INFO] generalize模块generalize功能003接口测试完毕
+[2017-01-13 17:41:07] [INFO] ====================================接口测试完毕====================================

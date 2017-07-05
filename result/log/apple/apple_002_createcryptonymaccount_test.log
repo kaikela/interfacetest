@@ -1,0 +1,15 @@
+[2017-01-13 17:43:23] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:43:23] [INFO] apple模块apple功能002接口测试开始
+[2017-01-13 17:43:23] [INFO] post请求数据开始
+[2017-01-13 17:43:23] [INFO] 请求参数:{"deviceId":""}
+[2017-01-13 17:43:23] [INFO] post请求数据完毕
+[2017-01-13 17:43:23] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:23] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:23] [INFO] post请求数据开始
+[2017-01-13 17:43:29] [WARN] Cookie rejected [JSESSIONID="47427B55BA3D2C44D7C5540D8483141C-n1", version:0, domain:mobile.kaike.la, path:/auth/, expiry:null] Illegal 'path' attribute "/auth/". Path of origin: "/app/api/request.do"
+[2017-01-13 17:43:29] [INFO] 请求参数:{"deviceId":"123456789"}
+[2017-01-13 17:43:29] [INFO] post请求数据完毕
+[2017-01-13 17:43:29] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:29] [INFO] Response Body:{"data":{"memberId":3071506},"success":true}
+[2017-01-13 17:43:29] [INFO] apple模块apple功能002接口测试完毕
+[2017-01-13 17:43:29] [INFO] ====================================接口测试完毕====================================

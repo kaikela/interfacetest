@@ -1,0 +1,14 @@
+[2017-01-13 17:40:40] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:40] [INFO] personalcenter模块personalcenter功能010接口测试开始
+[2017-01-13 17:40:41] [INFO] post请求数据开始
+[2017-01-13 17:40:41] [INFO] 请求参数:{"talkId":"123456789"}
+[2017-01-13 17:40:41] [INFO] post请求数据完毕
+[2017-01-13 17:40:41] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:41] [INFO] Response Body:{"success":false,"errMsg":"系统正忙，说说发布者信息获取不到！","errorCode":"05101"}
+[2017-01-13 17:40:41] [INFO] post请求数据开始
+[2017-01-13 17:40:41] [INFO] 请求参数:{"talkId":"7700"}
+[2017-01-13 17:40:41] [INFO] post请求数据完毕
+[2017-01-13 17:40:41] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:41] [INFO] Response Body:{"data":{"replyCount":0,"publishAddr":"浙江省 金华市 义乌市大成中学","praiseCount":2,"sendDate":1468918706000,"nickName":"sss","sex":"M","isPraise":false,"talkId":7700,"content":"<a href=\"http://community.kaike.la/community/circle/topic_detail.do?topicId=1495\" target=\"_blank\">主动被动谁说了算<\/a>","memberId":3070727},"success":true}
+[2017-01-13 17:40:41] [INFO] personalcenter模块personalcenter功能010接口测试完毕
+[2017-01-13 17:40:41] [INFO] ====================================接口测试完毕====================================

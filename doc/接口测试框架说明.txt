@@ -1,0 +1,37 @@
+1、在com.mistong.interfacetest.testcases包下新建各模块的包,如:商品模块为com.mistong.interfacetest.testcases.commodity
+
+2、在模块的包下新建TestNG class,类名格式为function_index_summary_test,如：AllCourses_001_pass_test
+
+3、脚本说明：
+
+    a、// 输出本页面日志 初始化
+	static Logger logger = Logger.getLogger(?.class.getName());     其中？为类名
+    b、日志信息输出格式：logger.info("***********");
+	c、SQL语句相关脚本中若需要使用参数,可以在excel中配置相关数据,脚本中应用参数只需data.get("列名"),在SQL脚本中select、update、delete、insert操作。
+	d、接口测试的脚本调用只需UnirestUtil.postJson(url, StrToMap(data.get("msgId")),StrToJson(data.get("json")),data.get("expect")); 这样一句即可,URL可支持配置。
+	    配置说明:
+		1)、在工程目录文件config/driver.properties中添加一行URL地址,不能重名,如：LoginURL = http://10.0.0.224:8180/auth/backend_login.do
+		2)、在基类中的@BeforeTest注解里配置该地址的获取方式,如：login_url = PropertiesDataProvider.getTestData(driverConfgFilePath, "LoginURL");
+		3)、接口测试中调用则为：UnirestUtil.postJson(login_url, StrToMap(data.get("msgId")),StrToJson(data.get("json")),data.get("expect"));
+		4)、数据源配置：在工程目录文件config/dbconfig.properties中添加数据库的url、user、password参数,命名格式为：数据库名_url、数据库名_user、数据库名_password。
+	e、若需要对接口正常返回的数据进行校验,可进行后台数据与返回的response数据进行比较(可将后台数据转换为json),实例可查考：AllCourses_001_pass_test.java
+
+4、excel格式、数据说明
+
+    a、excel的后缀名为.xls,文件名为类名中的function名,sheet页名称为类名中的index。
+	b、excel的sheet页中必须要有msgId、json、expect两列,其他列可自行添加。
+	c、excel中msgId、json列数据填写说明,以key:value,key2:value2,key3:value3.....形式添加。如mobileNo:13312345678,id:13312345678;若有值为空的部分用null表示,如：mobileNo:13312345678,id:null;
+    若值需要引用其他地方的数据,可用一些有意义的字符并用{}括起来,如：mobileNo:13312345678,id:{id},可将数据传入{id},
+    以数据替换的方式。
+    d、一个测试用例可在excel中配置多行测试数据（即各种情况的测试数据），运行测试的时候会对每一条数据进行测试。
+
+5、执行测试,配置testng.xml,指定运行那个测试类。在suite节点下添加即可,例如：
+    
+    <test name="login">
+		<classes>
+			<class name="com.mistong.interfacetest.testcases.login_001_pass_test" />
+		</classes>
+    </test> 
+
+
+6、运行测试后,会生成result、test-output两个目录,result为各模块的相应脚本的运行日志,test-output为testng自动生成的报告。

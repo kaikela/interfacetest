@@ -1,0 +1,29 @@
+[2017-01-13 17:40:19] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:19] [INFO] commodity模块AllCourses功能002接口测试开始
+[2017-01-13 17:40:20] [INFO] post请求数据开始
+[2017-01-13 17:40:20] [INFO] 请求参数:{"name":"","grade":"","subjectId":"","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:40:20] [INFO] post请求数据完毕
+[2017-01-13 17:40:20] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:20] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:40:20] [INFO] post请求数据开始
+[2017-01-13 17:40:20] [INFO] 请求参数:{"name":"初中语文","grade":"9","subjectId":"11","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:40:20] [INFO] post请求数据完毕
+[2017-01-13 17:40:20] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:20] [INFO] Response Body:{"data":{"total":14,"commodityInfo":[{"numOfLearned":562626,"teacherName":"董腾","smlImg1Url":"uploadFile/permanent/20160908/1473329320525.jpg","name":"小说阅读","id":34},{"numOfLearned":360891,"teacherName":"张禾强","smlImg1Url":"uploadFile/permanent/20161031/1477901358325.jpg","name":"语文入门易筋经郑测试用别动","id":81},{"numOfLearned":230,"teacherName":"黄晓岭","smlImg1Url":"","name":"【即将上线】古诗新课巩固提高","id":406},{"numOfLearned":468,"teacherName":"黄晓岭","name":"【已更新完】小说阅读新课巩固提高","id":407},{"numOfLearned":330,"teacherName":"黄晓岭","name":"【即将上线】文言文新课巩固提高","id":408},{"numOfLearned":540,"teacherName":"黄晓岭","name":"【已更新1节】作文新课巩固提高","id":409},{"numOfLearned":387,"teacherName":"黄晓岭","smlImg1Url":"","name":"【即将上线】散文阅读新课巩固提高","id":410},{"numOfLearned":178,"teacherName":"黄晓岭","name":"【即将上线】文言文新课基础精讲","id":411},{"numOfLearned":443,"teacherName":"黄晓岭","smlImg1Url":"","name":"【已更新2节】古诗新课基础精讲","id":412},{"numOfLearned":367,"teacherName":"黄晓岭","smlImg1Url":"uploadFile/permanent/20160630/1467267422773.jpg","name":"【即将上线】实用类文体新课巩固提高","id":413},{"numOfLearned":324610,"teacherName":"董腾","smlImg1Url":"uploadFile/permanent/20170112/1484219581941.jpg","name":"初中语文","id":530},{"numOfLearned":358,"teacherName":"董腾","smlImg1Url":"uploadFile/permanent/20161121/1479720982576.jpg","name":"性能测试专用勿删","id":589},{"numOfLearned":0,"teacherName":"董腾","smlImg1Url":"","name":"lucy的课程不要动，谢谢","id":615},{"numOfLearned":83613,"teacherName":"张禾强","smlImg1Url":"uploadFile/permanent/20170112/1484213855081.jpg","name":"人教版语文必修2同步课","id":209}]},"success":true}
+[2017-01-13 17:40:20] [INFO] post请求数据开始
+[2017-01-13 17:40:20] [INFO] 请求参数:{"name":"","grade":"0","subjectId":"0","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:40:20] [INFO] post请求数据完毕
+[2017-01-13 17:40:20] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:20] [INFO] Response Body:{"data":{"total":111,"commodityInfo":[{"numOfLearned":562626,"teacherName":"董腾","smlImg1Url":"uploadFile/permanent/20160908/1473329320525.jpg","name":"小说阅读","id":34},{"numOfLearned":2122305,"teacherName":"刘挺","smlImg1Url":"uploadFile/permanent/20170111/1484139587549.jpg","name":"平抛运动","id":35},{"numOfLearned":360891,"teacherName":"张禾强","smlImg1Url":"uploadFile/permanent/20161031/1477901358325.jpg","name":"语文入门易筋经郑测试用别动","id":81},{"numOfLearned":186452,"teacherName":"从强","smlImg1Url":"uploadFile/permanent/20160721/1469104938423.jpg","name":"解不等式和二次函数根的分布","id":121},{"numOfLearned":215824,"teacherName":"司明宇","smlImg1Url":"","name":"名词性从句","id":189},{"numOfLearned":64857,"teacherName":"钟万","name":"大自然的水轮\u2014水","id":321},{"numOfLearned":54701,"teacherName":"赵军","name":"大气的一天与一生\u2014\u2014天气和气候","id":322},{"numOfLearned":75897,"teacherName":"钟万","name":"地理的第二语言\u2014地图","id":323},{"numOfLearned":86303,"teacherName":"赵军","name":"人类唯一的家园\u2014地球","id":324},{"numOfLearned":67918,"teacherName":"王兆宁","name":"走进民主新时代--西方近代政治制度","id":325},{"numOfLearned":68874,"teacherName":"王兆宁","name":"民主之殇-西方古代政治概况","id":327},{"numOfLearned":68219,"teacherName":"王兆宁","name":"走向共和-中国近代政治概况","id":329},{"numOfLearned":70306,"teacherName":"王兆宁","name":"江山风雨情-中国古代政治制度","id":330},{"numOfLearned":754911,"teacherName":"李珍霞","smlImg1Url":"uploadFile/permanent/20160721/1469085149038.jpg","name":"下笔如有神","id":331},{"numOfLearned":77826,"teacherName":"勾文君","name":"诗和远方","id":332},{"numOfLearned":77289,"teacherName":"钟万","name":"土有奇表\u2014地表形态","id":333},{"numOfLearned":80007,"teacherName":"赵军","name":"有多远，走多远\u2014区域地理","id":334},{"numOfLearned":90346,"teacherName":"李敏","smlImg1Url":"uploadFile/permanent/20160721/1469085174240.jpg","name":"集合","id":335},{"numOfLearned":90365,"teacherName":"李敏","name":"方程与不等式","id":336},{"numOfLearned":91906,"teacherName":"李敏","name":"函数","id":337}]},"success":true}
+[2017-01-13 17:40:20] [INFO] post请求数据开始
+[2017-01-13 17:40:20] [INFO] 请求参数:{"name":"英语","grade":"","subjectId":"0","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:40:20] [INFO] post请求数据完毕
+[2017-01-13 17:40:20] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:20] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:40:20] [INFO] post请求数据开始
+[2017-01-13 17:40:20] [INFO] 请求参数:{"name":"英语","grade":"9","subjectId":"","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:40:20] [INFO] post请求数据完毕
+[2017-01-13 17:40:20] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:20] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:40:20] [INFO] commodity模块AllCourses功能002接口测试完毕
+[2017-01-13 17:40:20] [INFO] ====================================接口测试完毕====================================

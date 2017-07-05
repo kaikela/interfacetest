@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<!-- URL的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+
+	<!-- 以下为测试通过的case -->
+    
+	<test name="verificationCode">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.register_001_verificationCode_test" />
+		</classes>
+	</test>
+	<test name="reg">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.register_002_reg_test" />
+		</classes>
+	</test>
+	<test name="login">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.login_001_pass_test" />
+		</classes>
+	</test>
+	<test name="activatestudycard">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.studycard_001_activate_test" />
+		</classes>
+	</test>
+	<test name="packagedata01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.packagedata_001_pass_test" />
+		</classes>
+	</test>
+	<test name="packagedata02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.packagedata_002_pass_test" />
+		</classes>
+	</test>
+	<test name="choosesubject">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.choosesubject_001_confirm_test" />
+		</classes>
+	</test>
+	<test name="forgetpassword01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.forgetpassword_001_verificationCode_test" />
+		</classes>
+	</test>
+	<test name="forgetpassword02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.forgetpassword_002_checkvalidation_test" />
+		</classes>
+	</test>
+	<test name="forgetpassword03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.reglogin.forgetpassword_003_changepassword_test" />
+		</classes>
+	</test>
+	<test name="commodity01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.commodity.AllCourses_001_pass_test" />
+		</classes>
+	</test>
+	<test name="commodity02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.commodity.courseDetails_001_pass_test" />
+		</classes>
+	</test>
+	<test name="commodity03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.commodity.AllCourses_002_old_test" />
+		</classes>
+	</test>	
+	<test name="commodity04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.commodity.commodity_001_getgradesubjectlist_test" />
+		</classes>
+	</test>
+	<test name="vod01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.vod.vod_001_courseinfo_test" />
+		</classes>
+	</test>
+	<test name="vod02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.vod.vod_002_lessonlist_test" />
+		</classes>
+	</test>
+	<test name="vod03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.vod.vod_003_learningnum_test" />
+		</classes>
+	</test>
+	<test name="vod04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.vod.vod_004_playplan_test" />
+		</classes>
+	</test>
+	<test name="personalcenter01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_001_searchinfo_test" />
+		</classes>
+	</test>
+	<test name="personalcenter02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_002_updateinfo_test" />
+		</classes>
+	</test>
+	<test name="personalcenter03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_003_schoollist_test" />
+		</classes>
+	</test>
+	<test name="personalcenter04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_004_cardlist_test" />
+		</classes>
+	</test>
+	<test name="personalcenter05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_005_mycourse_test" />
+		</classes>
+	</test>
+	<test name="personalcenter06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_006_learningtime_test" />
+		</classes>
+	</test>
+	<test name="personalcenter07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_007_ranking_test" />
+		</classes>
+	</test>
+	<test name="personalcenter08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_008_savePlayrecord_test" />
+		</classes>
+	</test>	
+	<test name="personalcenter09">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_009_studentsdynamic_test" />
+		</classes>
+	</test>
+	<test name="personalcenter10">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_010_discussdetails_test" />
+		</classes>
+	</test>
+	<test name="personalcenter11">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_011_thumbup_test" />
+		</classes>
+	</test>
+	<test name="personalcenter12">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_012_talkcomment_test" />
+		</classes>
+	</test>
+	<test name="personalcenter13">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_013_publish_test" />
+		</classes>
+	</test>
+	<test name="personalcenter14">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_014_signinfo_test" />
+		</classes>
+	</test>
+	<test name="personalcenter15">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_015_sign_test" />
+		</classes>
+	</test>
+	<test name="personalcenter17">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_017_modityformemclass_test" />
+		</classes>
+	</test>
+	<test name="personalcenter18">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_018_getcommodityviewnew_test" />
+		</classes>
+	</test>
+	<test name="personalcenter19">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_019_getPlayrecord_test" />
+		</classes>
+	</test>
+	<test name="personalcenter20">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.personalcenter.personalcenter_020_getmypoint_test" />
+		</classes>
+	</test>	
+	<test name="update">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.update.update_001_versionupdate_test" />
+		</classes>
+	</test>
+	<test name="generalize01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_001_banner_test" />
+		</classes>
+	</test>
+	<test name="generalize02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_002_commend_test" />
+		</classes>
+	</test>
+	<test name="generalize03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_003_appbannerlist_test" />
+		</classes>
+	</test>
+	<test name="generalize04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_004_apphome_test" />
+		</classes>
+	</test>	
+	<test name="generalize05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_005_subStation_test" />
+		</classes>
+	</test>		
+	<test name="generalize06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.generalize.generalize_006_substationBySet_test" />
+		</classes>
+	</test>		
+	<test name="feedback">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.feedback.feedback_001_feedback_test" />
+		</classes>
+	</test>
+	<test name="payment01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_001_ordergenerate_test" />
+		</classes>
+	</test>
+	<test name="payment02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_002_orderlist_test" />
+		</classes>
+	</test>
+	<test name="payment03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_003_orderdetail_test" />
+		</classes>
+	</test>
+	<test name="payment04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_004_ordercancel_test" />
+		</classes>
+	</test>
+	<test name="payment05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_005_orderpayment_test" />
+		</classes>
+	</test>
+	<test name="payment06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_006_paymentresult_test" />
+		</classes>
+	</test>
+	<test name="payment07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_007_getkb_test" />
+		</classes>
+	</test>
+	<test name="payment08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_008_balancedetaillist_test" />
+		</classes>
+	</test>
+	<test name="payment09">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.payment.payment_009_chargepassword_test" />
+		</classes>
+	</test>
+	<test name="circle01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_001_firstpagelist_test" />
+		</classes>
+	</test>
+	<test name="circle02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_002_topiclist_test" />
+		</classes>
+	</test>
+	<test name="circle03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_003_focus_test" />
+		</classes>
+	</test>
+	<test name="circle04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_004_flower_test" />
+		</classes>
+	</test>
+	<test name="circle05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_005_topicdetail_test" />
+		</classes>
+	</test>
+	<test name="circle06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_006_floorreplydetail_test" />
+		</classes>
+	</test>
+	<test name="circle07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_007_publishtopic_test" />
+		</classes>
+	</test>
+	<test name="circle08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_008_replytopic_test" />
+		</classes>
+	</test>
+	<test name="circle09">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_009_praisetopic_test" />
+		</classes>
+	</test>
+	<test name="circle10">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_010_praisereply_test" />
+		</classes>
+	</test>
+	<test name="circle11">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_011_deductedpoint_test" />
+		</classes>
+	</test>
+	<test name="circle12">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_012_publishtopic_test" />
+		</classes>
+	</test>	
+	<test name="circle13">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_013_getsubjectteachlist_test" />
+		</classes>
+	</test>
+	<test name="fm01">
+		<classes>
+			<class name="com.mistong.interfacetest.testcases.fm.fm_001_fmlist_test" />
+		</classes>
+	</test>
+	<test name="fm02">
+		<classes>
+			<class name="com.mistong.interfacetest.testcases.fm.fm_002_fmdetail_test" />
+		</classes>
+	</test>
+	<test name="fm03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.fm.fm_003_fmpostlist_test" />
+		</classes>
+	</test>
+	<test name="fm04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.fm.fm_004_postdetail_test" />
+		</classes>
+	</test>
+	<test name="fm05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.fm.fm_005_publishcomment_test" />
+		</classes>
+	</test>
+	<test name="fm06">
+		<classes>
+			<class name="com.mistong.interfacetest.testcases.fm.fm_006_praisefm_test" />
+		</classes>
+	</test>
+	<test name="fm07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.fm.fm_007_praisecomment_test" />
+		</classes>
+	</test>
+	<test name="fm08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.fm.fm_008_recordhitnum_test" />
+		</classes>
+	</test>
+	<test name="burypoint01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.burypoint.burypoint_001_bannerclickdatagather_test" />
+		</classes>
+	</test>
+	<test name="burypoint02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.burypoint.burypoint_002_basedatagather_test" />
+		</classes>
+	</test>
+	<test name="burypoint03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.burypoint.burypoint_003_functiondatagather_test" />
+		</classes>
+	</test>
+	<test name="coursecollection01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursecollection.coursecollection_001_getcollectionlist_test" />
+		</classes>
+	</test>
+	<test name="coursecollection02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursecollection.coursecollection_002_collectioncourse_test" />
+		</classes>
+	</test>
+	<test name="apple01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.apple.apple_001_issendaudit_test" />
+		</classes>
+	</test>
+	<test name="apple02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.apple.apple_002_createcryptonymaccount_test" />
+		</classes>
+	</test>
+	<test name="apple03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.apple.apple_003_recoverCourse_test" />
+		</classes>
+	</test>	
+	<test name="apple04">
+			<classes>
+				<class
+					name="com.mistong.interfacetest.testcases.apple.apple_004_orderdata_test" />
+			</classes>
+		</test>		
+	<test name="search01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.search.search_001_vodsearch_test" />
+		</classes>
+	</test>	
+	<test name="live01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.live.live_001_liveStatus_test" />
+		</classes>
+	</test>	
+	<test name="live02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.live.live_002_liveTalk_test" />
+		</classes>
+	</test>	
+	<test name="live03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.live.live_003_liveNum_test" />
+		</classes>
+	</test>
+	<test name="live04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.live.live_004_liveList_test" />
+		</classes>
+	</test>	
+	<test name="coursetest01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_001_testBeforeCourse_test" />
+		</classes>
+	</test>		
+	<test name="coursetest02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_002_submittestBeforeCourse_test" />
+		</classes>
+	</test>		
+	<test name="coursetest03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_003_answerOfBeforeCourse_test" />
+		</classes>
+	</test>		
+	<test name="coursetest04">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_004_ifIsPractice_test" />
+		</classes>
+	</test>	
+	<test name="coursetest05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_005_endClass_test" />
+		</classes>
+	</test>	
+	<test name="coursetest06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_006_submitEndClass_test" />
+		</classes>
+	</test>	
+	<test name="coursetest07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_007_answerOfEndClass_test" />
+		</classes>
+	</test>	
+	<test name="coursetest08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_008_onTestOfClass_test" />
+		</classes>
+	</test>	
+	<test name="coursetest09">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.coursetest.coursetest_009_answerofonClass_test" />
+		</classes>
+	</test>		
+	<test name="mycourse01">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_001_getInformation_test" />
+		</classes>
+	</test>		
+	<test name="mycourse02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_002_getAllInformation_test" />
+		</classes>
+	</test>	
+	<test name="mycourse03">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_003_getCurrentList_test" />
+		</classes>
+	</test>		
+	<test name="mycourse05">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_005_getcatalogBackList_test" />
+		</classes>
+	</test>	
+	<test name="mycourse06">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_006_setTerm_test" />
+		</classes>
+	</test>	
+	<test name="mycourse07">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_007_setTermWithOther_test" />
+		</classes>
+	</test>	
+	<test name="mycourse08">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_008_getRecommendCourseList_test" />
+		</classes>
+	</test>	
+	<test name="mycourse09">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.mycourse.mycourse_010_getliveInfoList_test" />
+		</classes>
+	</test>														
+	<!--
+	<test name="apple02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.apple.apple_002_createcryptonymaccount_test" />
+		</classes>
+	</test>
+	-->
+	
+</suite> <!-- Suite -->

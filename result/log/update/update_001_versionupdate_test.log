@@ -1,0 +1,44 @@
+[2017-01-13 17:41:03] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:41:03] [INFO] update模块update功能001接口测试开始
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"","appType":""}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"data":{"downUrl":"app/OpenCourseV2.7.01215V2.apk","remark":"更新说明（V2.8.0）：","version":"2.8.0"},"success":true}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"10.0.0","appType":""}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"success":false,"errMsg":"系统版本低于客户端版本！"}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"2.7.0","appType":"1"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"data":{"downUrl":"app/OpenCourseV2.7.01215V2.apk","isLatest":0,"isConstraint":0,"remark":"更新说明（V2.8.0）：","version":"2.8.0"},"success":true}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"2.0.0","appType":"2"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"data":{"downUrl":"http://m.kaike.la","isLatest":0,"isConstraint":0,"remark":"更新说明（V2.2.0）：","version":"2.2.0"},"success":true}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"3.9.0","appType":"2"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"success":false,"errMsg":"系统版本低于客户端版本！"}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"9.7.0","appType":"1"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"success":false,"errMsg":"系统版本低于客户端版本！"}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"","appType":"1"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"data":{"downUrl":"app/OpenCourseV2.7.01215V2.apk","remark":"更新说明（V2.8.0）：","version":"2.8.0"},"success":true}
+[2017-01-13 17:41:03] [INFO] post请求数据开始
+[2017-01-13 17:41:03] [INFO] 请求参数:{"version":"","appType":"2"}
+[2017-01-13 17:41:03] [INFO] post请求数据完毕
+[2017-01-13 17:41:03] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:41:03] [INFO] Response Body:{"data":{"downUrl":"http://m.kaike.la","remark":"更新说明（V2.2.0）：","version":"2.2.0"},"success":true}
+[2017-01-13 17:41:03] [INFO] update模块update功能001接口测试完毕
+[2017-01-13 17:41:03] [INFO] ====================================接口测试完毕====================================

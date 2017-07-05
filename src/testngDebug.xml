@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    
+	<!-- URL的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+
+	<!-- 以下为测试通过的case -->
+    
+	<test name="circle12">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.circle.circle_012_publishtopic_test" />
+		</classes>
+	</test>	
+	<!--
+	<test name="apple02">
+		<classes>
+			<class
+				name="com.mistong.interfacetest.testcases.apple.apple_002_createcryptonymaccount_test" />
+		</classes>
+	</test>
+	-->
+	
+</suite> <!-- Suite -->

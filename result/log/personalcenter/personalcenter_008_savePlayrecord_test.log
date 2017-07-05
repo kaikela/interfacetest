@@ -1,0 +1,25 @@
+[2017-01-13 17:40:38] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:40:38] [INFO] personalcenter模块personalcenter功能008接口测试开始
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] 请求参数:{"memberId":"3071734","courseId":"34","courseLessionId":"43","uuid":"5e0e40c7-f235-4cb7-8748-49c78255ba66","present_Time":"4824","real_Time":"1483433561598","status":"2","playDataList":[]}
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:38] [INFO] Response Body:{"success":true}
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] 请求参数:{"memberId":"3071734","courseId":"34","courseLessionId":"43","uuid":"","present_Time":"4824","real_Time":"1483433561598","status":"2","playDataList":[]}
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:38] [INFO] Response Body:{"success":true}
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] post请求数据开始
+[2017-01-13 17:40:38] [INFO] 请求参数:{"memberId":"","courseId":"34","courseLessionId":"43","uuid":"5e0e40c7-f235-4cb7-8748-49c78255ba66","present_Time":"4824","real_Time":"1483433561598","status":"2","playDataList":[]}
+[2017-01-13 17:40:38] [INFO] post请求数据完毕
+[2017-01-13 17:40:38] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:40:38] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:40:38] [INFO] personalcenter模块personalcenter功能008接口测试完毕
+[2017-01-13 17:40:38] [INFO] ====================================接口测试完毕====================================

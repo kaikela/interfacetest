@@ -1,0 +1,29 @@
+[2017-01-13 17:43:14] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:43:14] [INFO] fm模块fm功能004接口测试开始
+[2017-01-13 17:43:14] [INFO] post请求数据开始
+[2017-01-13 17:43:14] [INFO] 请求参数:{"commentId":"","memberId":"","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:43:14] [INFO] post请求数据完毕
+[2017-01-13 17:43:14] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:14] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:14] [INFO] post请求数据开始
+[2017-01-13 17:43:14] [INFO] 请求参数:{"commentId":"8888888888","memberId":"6018257","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:43:14] [INFO] post请求数据完毕
+[2017-01-13 17:43:14] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:14] [INFO] Response Body:{"success":false,"errMsg":"系统正忙，暂时无法查看评论详情!","errorCode":"13402"}
+[2017-01-13 17:43:14] [INFO] post请求数据开始
+[2017-01-13 17:43:14] [INFO] 请求参数:{"commentId":"1","memberId":"","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:43:14] [INFO] post请求数据完毕
+[2017-01-13 17:43:14] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:14] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:43:14] [INFO] post请求数据开始
+[2017-01-13 17:43:14] [INFO] 请求参数:{"commentId":"1","memberId":"6018257","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:43:14] [INFO] post请求数据完毕
+[2017-01-13 17:43:14] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:14] [INFO] Response Body:{"data":{"commentList":[],"fmId":13,"isAgree":false,"total":0,"contents":"这么晚听","nikeName":"小梅","id":1,"starLevel":5,"up":2,"reply":0,"createDate":1459179060000,"memberId":10098},"success":true}
+[2017-01-13 17:43:14] [INFO] post请求数据开始
+[2017-01-13 17:43:15] [INFO] 请求参数:{"commentId":"7","memberId":"6018257","pageIndex":"1","pageSize":"20"}
+[2017-01-13 17:43:15] [INFO] post请求数据完毕
+[2017-01-13 17:43:15] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:43:15] [INFO] Response Body:{"data":{"commentList":[],"fmId":13,"isAgree":false,"total":0,"contents":"0.0","nikeName":"alfred","id":7,"starLevel":5,"up":0,"reply":0,"createDate":1459179238000,"memberId":3007084},"success":true}
+[2017-01-13 17:43:15] [INFO] fm模块fm功能004接口测试完毕
+[2017-01-13 17:43:15] [INFO] ====================================接口测试完毕====================================

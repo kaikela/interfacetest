@@ -1,0 +1,46 @@
+[2017-01-13 18:28:56] [INFO] ====================================接口测试开始====================================
+[2017-01-13 18:28:56] [INFO] mycourse模块mycourse功能010接口测试开始
+[2017-01-13 18:28:56] [INFO] post请求数据开始
+[2017-01-13 18:28:58] [INFO] post请求数据完毕
+[2017-01-13 18:28:58] [INFO] post请求数据开始
+[2017-01-13 18:28:58] [INFO] 请求参数:{"termId":0,"subjectId":0,"teacherId":0,"liveStatus":0,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:28:58] [INFO] post请求数据完毕
+[2017-01-13 18:28:58] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:28:58] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:28:58] [INFO] post请求数据开始
+[2017-01-13 18:28:59] [INFO] post请求数据完毕
+[2017-01-13 18:28:59] [INFO] post请求数据开始
+[2017-01-13 18:28:59] [INFO] 请求参数:{"termId":0,"subjectId":0,"teacherId":0,"liveStatus":1,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:28:59] [INFO] post请求数据完毕
+[2017-01-13 18:28:59] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:28:59] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:28:59] [INFO] post请求数据开始
+[2017-01-13 18:28:59] [INFO] post请求数据完毕
+[2017-01-13 18:28:59] [INFO] post请求数据开始
+[2017-01-13 18:28:59] [INFO] 请求参数:{"termId":0,"subjectId":0,"teacherId":0,"liveStatus":2,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:28:59] [INFO] post请求数据完毕
+[2017-01-13 18:28:59] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:28:59] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:28:59] [INFO] post请求数据开始
+[2017-01-13 18:29:00] [INFO] post请求数据完毕
+[2017-01-13 18:29:00] [INFO] post请求数据开始
+[2017-01-13 18:29:00] [INFO] 请求参数:{"termId":0,"subjectId":0,"teacherId":0,"liveStatus":0,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:29:00] [INFO] post请求数据完毕
+[2017-01-13 18:29:00] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:29:00] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:29:00] [INFO] post请求数据开始
+[2017-01-13 18:29:01] [INFO] post请求数据完毕
+[2017-01-13 18:29:01] [INFO] post请求数据开始
+[2017-01-13 18:29:01] [INFO] 请求参数:{"termId":null,"subjectId":null,"teacherId":null,"liveStatus":0,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:29:01] [INFO] post请求数据完毕
+[2017-01-13 18:29:01] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:29:01] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:29:01] [INFO] post请求数据开始
+[2017-01-13 18:29:02] [INFO] post请求数据完毕
+[2017-01-13 18:29:02] [INFO] post请求数据开始
+[2017-01-13 18:29:02] [INFO] 请求参数:{"termId":null,"subjectId":null,"teacherId":null,"liveStatus":1,"pageIndex":1,"pageSize":20}
+[2017-01-13 18:29:02] [INFO] post请求数据完毕
+[2017-01-13 18:29:02] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 18:29:02] [INFO] Response Body:{"data":{"liveInfoList":[{"teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161021/1477048973119.jpg","groupId":"@TGS#aV4ROVFE4","lessonId":6486,"liveName":"啦啦啦,德玛西亚!","liveId":548,"startDate":"1484211824000","status":1},{"resourceId":"1bd6bc4b-89bf-43e6-807a-fec3b5a4a75e-1665300","teacherName":"孟晓磊","smlImg1Url":"uploadFile/permanent/20161025/1477361918771.jpg","groupId":"@TGS#aFGVTDGEX","lessonId":6488,"liveName":"直播课结束有录像","liveId":550,"startDate":"1478139574000","status":2}],"listSize":2},"success":true}
+[2017-01-13 18:29:02] [INFO] mycourse模块mycourse功能010接口测试完毕
+[2017-01-13 18:29:02] [INFO] ====================================接口测试完毕====================================

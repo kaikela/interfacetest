@@ -1,0 +1,24 @@
+[2017-01-13 17:42:48] [INFO] ====================================接口测试开始====================================
+[2017-01-13 17:42:49] [INFO] circle模块circle功能006接口测试开始
+[2017-01-13 17:42:49] [INFO] post请求数据开始
+[2017-01-13 17:42:49] [INFO] 请求参数:{"topicId":"","topicReplyId":"1","memberId":"6018257"}
+[2017-01-13 17:42:49] [INFO] post请求数据完毕
+[2017-01-13 17:42:49] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:42:49] [INFO] Response Body:{"success":false,"errMsg":"参数不可以为空！","errorCode":"249"}
+[2017-01-13 17:42:49] [INFO] post请求数据开始
+[2017-01-13 17:42:49] [INFO] 请求参数:{"topicId":"99","topicReplyId":"1","memberId":"6018257"}
+[2017-01-13 17:42:49] [INFO] post请求数据完毕
+[2017-01-13 17:42:49] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:42:49] [INFO] Response Body:{"success":false,"errMsg":"楼层信息获取失败！","errorCode":"12062"}
+[2017-01-13 17:42:49] [INFO] post请求数据开始
+[2017-01-13 17:42:49] [INFO] 请求参数:{"topicId":"99","topicReplyId":"281","memberId":"6018257"}
+[2017-01-13 17:42:49] [INFO] post请求数据完毕
+[2017-01-13 17:42:49] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:42:49] [INFO] Response Body:{"data":{"topicMemId":3018923,"floorReplyList":[{"floorId":1218,"floorMemEdNickname":"大爷拉面","isAnonymous":0,"floorReplyContent":"美美","floorMemId":3016002,"floorReplyTime":1456363927000,"floorMemIdEd":3018923,"floorMemNickname":"Linssy陈","isAnonymousEd":0},{"floorId":10748,"floorMemEdNickname":"大爷拉面","isAnonymous":0,"floorReplyContent":"哦啦啦啦啦啦","floorMemId":3066699,"floorReplyTime":1477296893000,"floorMemIdEd":3018923,"isAnonymousEd":0}],"topicReplyId":281,"topicReplyNum":2,"topicLoveNum":3,"topicReplyContent":"老师好美[em]20[/em]","topicMemNickname":"大爷拉面","floorhostisAnonymous":0,"topicReplyTime":1453432199000,"topicMemGender":"M"},"success":true}
+[2017-01-13 17:42:49] [INFO] post请求数据开始
+[2017-01-13 17:42:50] [INFO] 请求参数:{"topicId":"1310","topicReplyId":"9430","memberId":"6018257"}
+[2017-01-13 17:42:50] [INFO] post请求数据完毕
+[2017-01-13 17:42:50] [INFO] 接口测试,post请求正常响应,数据正确返回
+[2017-01-13 17:42:50] [INFO] Response Body:{"data":{"topicMemId":3033367,"floorReplyList":[{"floorId":9499,"floorMemEdNickname":"美得惊动党中央","isAnonymous":0,"floorReplyContent":"长远的[em]17[/em][em]17[/em][em]17[/em]","floorMemId":3060622,"floorReplyTime":1466431323000,"floorMemIdEd":3033367,"floorMemNickname":"13307953781","isAnonymousEd":0},{"floorId":9527,"floorMemEdNickname":"美得惊动党中央","isAnonymous":0,"floorReplyContent":"暂时的是抓紧学习好英语和语文","floorMemId":3039690,"floorReplyTime":1466469396000,"floorMemIdEd":3033367,"floorMemNickname":"服部唯","isAnonymousEd":0},{"floorId":9550,"floorMemEdNickname":"服部唯","isAnonymous":0,"floorReplyContent":"[em]12[/em]你可以的","floorMemId":3033367,"floorReplyTime":1466471081000,"floorMemIdEd":3039690,"floorMemNickname":"美得惊动党中央","isAnonymousEd":0},{"floorId":9757,"floorMemEdNickname":"美得惊动党中央","isAnonymous":0,"floorReplyContent":"坚持一个古风女","floorMemId":3051649,"floorReplyTime":1466644160000,"floorMemIdEd":3033367,"floorMemNickname":"二衫去","isAnonymousEd":0},{"floorId":9768,"floorMemEdNickname":"二衫去","isAnonymous":0,"floorReplyContent":"[em]10[/em]握爪","floorMemId":3033367,"floorReplyTime":1466644867000,"floorMemIdEd":3051649,"floorMemNickname":"美得惊动党中央","isAnonymousEd":0},{"floorId":9786,"floorMemEdNickname":"美得惊动党中央","isAnonymous":0,"floorReplyContent":"加油，努力考大学，","floorMemId":3047488,"floorReplyTime":1466650143000,"floorMemIdEd":3033367,"floorMemNickname":"黎明破晓ing","isAnonymousEd":0},{"floorId":9803,"floorMemEdNickname":"黎明破晓ing","isAnonymous":0,"floorReplyContent":"加油你可以的","floorMemId":3033367,"floorReplyTime":1466651855000,"floorMemIdEd":3047488,"floorMemNickname":"美得惊动党中央","isAnonymousEd":0},{"floorId":9849,"floorMemEdNickname":"美得惊动党中央","isAnonymous":0,"floorReplyContent":"幸福快乐就好","floorMemId":3070018,"floorReplyTime":1466682478000,"floorMemIdEd":3033367,"floorMemNickname":"13071776337","isAnonymousEd":0}],"topicReplyId":9430,"topicReplyNum":8,"topicLoveNum":1,"topicReplyContent":"你的理想是什么，长远的或短暂的都行。","topicMemNickname":"美得惊动党中央","topicMemAvatar":"uploadFile/permanent/20160411/1460371498165.jpg","floorhostisAnonymous":0,"topicReplyTime":1466406776000,"topicMemGender":"M"},"success":true}
+[2017-01-13 17:42:50] [INFO] circle模块circle功能006接口测试完毕
+[2017-01-13 17:42:50] [INFO] ====================================接口测试完毕====================================
